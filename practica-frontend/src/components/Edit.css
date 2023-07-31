@@ -1,0 +1,27 @@
+label{
+    display: block;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+form{
+    margin-left: 20px;
+}
+select{
+    width: 250px;
+    height: 30px;
+}
+.cont{
+    display: flex;
+    justify-content:center ;
+}
+p{
+    color: red;
+    font-size: small;
+}
