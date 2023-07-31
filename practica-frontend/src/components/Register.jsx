@@ -17,6 +17,17 @@ function Register(){
             { value: 2, label: 'Habitacion 2' },
             { value: 3, label: 'Habitacion 3' },
             { value: 4, label: 'Habitacion 4' },
+            { value: 5, label: 'Habitacion 5' },
+            { value: 6, label: 'Habitacion 6' },
+            { value: 7, label: 'Habitacion 7' },
+            { value: 8, label: 'Habitacion 8' },
+            { value: 9, label: 'Habitacion 9' },
+            { value: 10, label: 'Habitacion 10' },
+            { value: 11, label: 'Habitacion 11' },
+            { value: 12, label: 'Habitacion 12' },
+            { value: 13, label: 'Habitacion 13' },
+            { value: 14, label: 'Habitacion 14' },
+            { value: 15, label: 'Habitacion 15' },
            ]
            
             const nuevosObjetos = listaDisponibles.filter((objeto) => !data.some((item) => item.habitacion === objeto.value));
